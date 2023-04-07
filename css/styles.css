@@ -3,31 +3,64 @@ body {
   text-align: center;
 }
 h1 {
+  color: #66bfbf;
+  font-size: 3.5rem;
   margin-top: 0;
   font-family: "Rock Salt";
+  line-height: 4;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Delicious Handrawn";
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Delicious Handrawn";
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+a {
+  color: #11999e;
+}
+
+.pfp {
+  width: 150px;
+  border-radius: 100%;
+}
+
+.frontend-img {
+  float: left;
+  width: 25%;
+  margin: 40px;
+}
+
+.backend-img {
+  float: right;
+  width: 25%;
+  margin: 30px;
 }
 
 p {
-  font-family: "Delicious Handrawn";
-  font-size: larger;
+  font-family: "Concert One";
+  font-size: 1.5rem;
 }
 
 .top-container {
-  background-color: #51cfc9;
+  background-color: #e0f3f2;
   position: relative;
   padding-top: 100px;
 }
 
-.middle-container {
-  background-color: red;
-  height: 200px;
-  width: 200px;
+/* .middle-container {
 }
+
 .bottom-container {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
-}
+} */
 
 .bottom-cloud {
   position: absolute;
@@ -39,4 +72,11 @@ p {
   position: absolute;
   right: 300px;
   top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
